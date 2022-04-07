@@ -1,0 +1,118 @@
+
+
+.n{
+     background-color: orange;
+     margin: 1%;   
+}
+
+.v{
+    background-color: yellowgreen;
+    margin: 1%;
+}
+
+.a{
+    background-color: blue;
+    margin: 1%;
+}
+
+.g{
+    background-color: gray;
+    margin: 1%;
+}
+
+@media (max-width: 320px){
+    .n{
+        width: auto;
+        height: 50px;
+    }
+
+    .v{
+        width: auto;
+        height: 100px;
+    }
+
+    .a{
+        width: auto;
+        height: 250px;
+    }
+
+    .g{
+        width: auto;
+        height: 20px;
+    }
+}
+
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 1024px){
+    .n{
+        width: auto;
+        height: 50px;
+    }
+
+    .v{
+        width: auto;
+        height: 100px;
+    }
+
+    .a{
+        width: auto;
+        height: 50px;
+    }
+
+    .g{
+        width: 48%;
+        height: 50px;
+        float: left;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .n{
+        width: 48%;
+        height: 100px;
+        float: left;
+    }
+
+    .v{
+        width: auto;
+        height: 190px;
+        clear: both;
+    }
+
+    .a{
+        width: 31.33%;
+        height: 80px;
+        float: left;
+    }
+
+    .g{
+        width: 23%;
+        height: 70px;
+        float: left;
+
+    }
+    
+}
+/*
+@media (min-width: 500px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 1024px){
+      body{
+          background-color: red;
+      }
+}
+
+@media (max-width: 1024px){
+    body{
+        background-color: rgb(150, 25, 139);
+    }
+}
+*/
